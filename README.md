@@ -1,1 +1,1 @@
-# plex-qbit-unraid_userscript
+# qbittorrent-unraid-automation_plexcheck
