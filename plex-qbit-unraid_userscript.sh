@@ -6,7 +6,7 @@
 
 # Determine the directory where the script is located
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd -P )"
-CONFIG_FILE="${SCRIPT_DIR}/config.env" # Path relative to the script's directory
+CONFIG_FILE="${SCRIPT_DIR}/.env" # Path relative to the script's directory
 
 # Check if the configuration file exists
 if [ ! -f "${CONFIG_FILE}" ]; then
